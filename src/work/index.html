@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.min.js" type="application/javascript"></script>
+
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <script src="app.js" type="application/javascript"></script>
+    <link rel="stylesheet"  type="text/css" href="main.css" />
+</head>
+<body ng-controller="mainController">
+
+
+
+
+
+
+
+
+    <div id="top-menu">
+
+
+        <div id="top-menu-container">
+            <a href="..">  <div class="top-menu-item" >Home</div></a>
+            <div  class="top-menu-item"  style="border-bottom-style: solid; border-width: 7px; border-color: #4a86e8; height:13px;">Work</div>
+            <a href="../files/sam_bhattacharyya_dotlearn_resume.pdf" target="_blank" ><div class="top-menu-item">Resume</div></a>
+            <a href="../blog"> <div  class="top-menu-item">Blog</div></a>
+            <a href="mailto:sam@dotlearn.org" target="_blank"><div class="top-menu-item">Contact</div></a>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <div id="container" ng-init="work='dotlearn'">
+
+
+        <div style="float: left; height: 700px; overflow-y: hidden;  width: 200px;" >
+
+        <h2>Currently working on</h2>
+        
+            <div class="sublink" ng-click="work='dotlearn'"   ng-class="{'sublink-selected': (work=='dotlearn')}" >dot Learn</div>
+            <div class="sublink"  ng-click="work='vectorizedVideos'"   ng-class="{'sublink-selected': (work=='vectorizedVideos')}" >Vectorized Videos</div>
+        
+
+        <h2>Older projects</h2>
+        
+            <div class="sublink" ng-click="work='teachx'"   ng-class="{'sublink-selected': (work=='teachx')}" >Teach[x]</div>
+        
+
+
+        <h2>Would like to work on</h2>
+        
+
+            <div class="sublink" ng-click="work='openblocks'"   ng-class="{'sublink-selected': (work=='openblocks')}" >Open Blocks</div>
+            <div class="sublink" ng-click="work='wikipedia'"   ng-class="{'sublink-selected': (work=='wikipedia')}" >Wikipedia Gaps</div>
+        
+
+
+        <h2>Misc Projects</h2>
+        
+            <div class="sublink" ng-click="work='audiorecord'"   ng-class="{'sublink-selected': (work=='audiorecord')}" >audioRecord.js</div>
+
+        
+
+
+        <h2>Hardware</h2>
+        
+            <div class="sublink" ng-click="work='phands'"   ng-class="{'sublink-selected': (work=='phands')}" >Prosthetic Hands</div>
+            <div class="sublink" ng-click="work='legs'"   ng-class="{'sublink-selected': (work=='legs')}" >Prosthetic legs</div>
+        
+
+        <h2>Research</h2>
+        
+            <div class="sublink" ng-click="work='cochlear'"   ng-class="{'sublink-selected': (work=='cochlear')}" >Cochlear</div>
+            <div class="sublink" ng-click="work='rhands'"   ng-class="{'sublink-selected': (work=='rhands')}" >Robotic Hand</div>
+            <div class="sublink" ng-click="work='environs'"   ng-class="{'sublink-selected': (work=='environs')}" >Constrained environments</div>
+            <div class="sublink" ng-click="work='pathplanning'"   ng-class="{'sublink-selected': (work=='pathplanning')}" >Path Planning</div>
+            <div class="sublink" ng-click="work='digital_education'"   ng-class="{'sublink-selected': (work=='digital_education')}" >Digital Education</div>
+
+
+        </div>
+
+        <ng-include src="'projects/'+ work+'/index.html'" style="float: right; width: 700px; height: 700px; overflow-y: auto;"></ng-include>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <div id="footer">Powered by caffiene, hard-coded with care</div>
+
+
+
+</body>
+</html>

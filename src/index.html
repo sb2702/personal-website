@@ -2,9 +2,11 @@
 <html ng-app="app">
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Sam Bhattacharyya</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.min.js" type="application/javascript"></script>
+
+    
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <script src="app.js" type="application/javascript"></script>
     <link rel="stylesheet"  type="text/css" href="main.css" />
@@ -12,7 +14,28 @@
 <body ng-controller="mainController">
 
 
-    <div id="top-menu"></div>
+
+
+
+
+
+
+    <div id="top-menu">
+
+
+        <div id="top-menu-container">
+            <div class="top-menu-item"  style="border-bottom-style: solid; border-width: 7px; border-color: #4a86e8; height:13px;" >Home</div>
+            <a href="work"> <div  class="top-menu-item">Work</div></a>
+            <a href="files/sam_bhattacharyya_dotlearn_resume.pdf" target="_blank" ><div class="top-menu-item">Resume</div></a>
+            <a href="blog"> <div  class="top-menu-item">Blog</div></a>
+            <a href="mailto:sam@dotlearn.org" target="_blank"><div class="top-menu-item">Contact</div></a>
+
+        </div>
+
+
+
+    </div>
+
 
 
 
@@ -22,17 +45,21 @@
         <div id="namecard">
 
             <div id="title">Sam Bhattacharyya</div>
+
+
+            <div style="position: absolute; left: 350px; top: 50px; font-size: 24px; color: #666666;"><em>Social Entrepreneur </em></div>
+
             <div id="description">
 
-                <p>Social Entrepreneur and Founder/CEO of <a href="http://www.dotlearn.org" target="_blank"> dot Learn</a>, a software technology startup bringing online education to mobile users in emerging markets. Background in Computer Science, Education and International Development.</p>
 
-                <p>Entrepreneur, Full Stack Developer and fluent in Spanish and Chinese, Sam enjoys learning and challenging himself, but more than anything is passionate about leveraging technology for scalable, concrete social impact.</p>
+
+                <p>Founder / CEO of dot Learn, an ed-tech venture making online education accessible in emerging markets. Sam has a background in Software Engineering, an MBA from MIT  and is fluent in Spanish and Mandarin.</p>
             </div>
-            <img src="icons/profile.jpg" height="400" id="profile" />
+            <img src="icons/profile.jpg"  height="260" id="profile" />
 
 
             <div id="contact-box">
-               <a href="mailto:sam@dotlearn.org" target="_blank"><img src="icons/email.png"  class="contact" height="70" /></a>
+                <a href="mailto:sam@dotlearn.org" target="_blank"><img src="icons/email.png"  class="contact" height="70" /></a>
                 <a href="https://www.linkedin.com/in/sb2702"  target="_blank"> <img src="icons/linkedin.png" class="contact"   height="70" /></a>
                 <a href="https://github.com/sb2702"  target="_blank"> <img src="icons/social-github.png" class="contact"   height="70" /></a>
 
@@ -41,7 +68,28 @@
         </div>
 
 
+        <div  style="width: 80%; margin: auto; display: block; position: relative; height: 150px;">
+
+
+            <a href="files/sam_bhattacharyya_dotlearn_resume.pdf" target="_blank" ><img  src="icons/document.png" style="background-color:#5cb85c; height: 80px; padding: 25px; border-radius: 15px; position: absolute; bottom: 0; left: 0; "   /></a>
+            <div style="width: 130px; text-align: center; padding: 20px 0; font-size: 24px;  color: #666666; position: absolute; left: 0; top: 145px; ">Resume</div>
+
+            <a href="work"  ><img  src="icons/code.png" style="background-color:#000A14; height: 80px; padding: 25px; border-radius: 15px; position: absolute; bottom: 0; left: 50%; -webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%); "   /></a>
+
+            <div style=" text-align: center; padding: 20px 0; font-size: 24px;  color: #666666; position: absolute; left: 0; right: 0; top: 145px; ">Work</div>
+            <a href="http://www.dotlearn.org" target="_blank" ><img  src="http://www.dotlearn.org/icons/white-main.png" style="background-color:#4a86e8; height: 80px; padding: 25px; border-radius: 15px; position: absolute; bottom: 0; right: 0; "   /></a>
+
+            <div style=" text-align: center; padding: 20px 0; font-size: 24px;  color: #666666; position: absolute; right: 0; top: 145px; ">Company</div>
+        </div>
+
+
+
     </div>
+
+
+
+
+
 
     <div id="footer">Powered by caffiene, hard-coded with care</div>
 
