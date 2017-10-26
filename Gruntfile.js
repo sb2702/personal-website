@@ -15,8 +15,8 @@ module.exports = function (grunt) {
 
         aws_s3: {
             options: {
-                accessKeyId: process.env.AWS_ACCESS_KEY_ID, // Use the variables
-                secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY, // You can also use env variables
+                accessKeyId: process.env.AWS_KEY_PERSONAL, // Use the variables
+                secretAccessKey: process.env.AWS_SECRET_PERSONAL, // You can also use env variables
                 region: 'us-west-2',
                 uploadConcurrency: 5, // 5 simultaneous uploads
                 downloadConcurrency: 5 // 5 simultaneous downloads
@@ -40,7 +40,7 @@ module.exports = function (grunt) {
 
         jsonlint: {
            db: {
-                src: ["src/blog/db.json" ],
+                src: ["src/https://medium.com/@sambhattacharyya/db.json" ],
                 filter: 'isFile'
             }
         }
