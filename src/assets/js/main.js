@@ -117,7 +117,7 @@ var chartElements = document.querySelectorAll('.chart');
 chartElements.forEach((chartElement) => {
 	
     new EasyPieChart(chartElement, {
-        barColor:'#00BCD4',//Pie chart colour
+        barColor:'#673AB7',//Pie chart colour
 		trackColor: '#e8e8e8',
 		scaleColor: false,
 		lineWidth : 5,
