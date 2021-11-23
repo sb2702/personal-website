@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1775f7e5-c2fa-4e52-b8b1-71aa285732cc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/office-building.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +157,7 @@
     <property name="FullScreen" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -168,11 +171,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/icons" />
       <recent name="$PROJECT_DIR$/src/files" />
-      <recent name="$PROJECT_DIR$/src/work/projects/peacecorps" />
-      <recent name="$PROJECT_DIR$/src/work/projects/audiorecord" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/work/projects" />
@@ -225,7 +228,8 @@
       <workItem from="1637573667345" duration="978000" />
       <workItem from="1637575019465" duration="3000" />
       <workItem from="1637611918333" duration="19000" />
-      <workItem from="1637611990718" duration="13435000" />
+      <workItem from="1637611990718" duration="13604000" />
+      <workItem from="1637629949565" duration="1377000" />
     </task>
     <servers />
   </component>
@@ -278,9 +282,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/work/main.css">
