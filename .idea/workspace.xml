@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1775f7e5-c2fa-4e52-b8b1-71aa285732cc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/portfolio/super-resolution.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/portfolio/super-resolution.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +156,7 @@
     <property name="FullScreen" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images/portfolio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -169,11 +170,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images/portfolio" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/icons" />
-      <recent name="$PROJECT_DIR$/src/files" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/work/projects" />
@@ -227,7 +228,12 @@
       <workItem from="1637575019465" duration="3000" />
       <workItem from="1637611918333" duration="19000" />
       <workItem from="1637611990718" duration="13604000" />
-      <workItem from="1637629949565" duration="2199000" />
+      <workItem from="1637629949565" duration="2365000" />
+      <workItem from="1637729676135" duration="13000" />
+      <workItem from="1638219316085" duration="605000" />
+      <workItem from="1638548592774" duration="603000" />
+      <workItem from="1638552451429" duration="685000" />
+      <workItem from="1694876438497" duration="1442000" />
     </task>
     <servers />
   </component>
